@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="my poprtfolio">
+  <title>Clark Jake | Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header id="top">
+    <div class="container navigation">
+      <a class="logo" href="#top">Clark Jake<span>.</span></a>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button id="theme-button" type="button"
+              aria-pressed="false" hidden>
+        Dark mode
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow">STUDENT & ASPIRING DEVELOPER</p>
+
+        <h1 id="hero-title">
+          Hi, I'm <span>Clark Jake Pana.</span>
+        </h1>
+
+        <p class="intro">
+          I enjoy learning to code and building simple,
+          useful applications.
+        </p>
+
+        <div class="actions">
+          <a class="button" href="#projects">View my projects</a>
+          <a class="button secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+
+      <div class="portrait">
+      
+        <img
+          id="profile-photo"
+          src="JAKEprofile.jpg"
+          alt="Portrait of Clark Jake Pana"
+          width="280"
+          height="280"
+        >
+
+        <p id="photo-fallback" class="photo-fallback" hidden>
+          Clark Jake Pana
+        </p>
+
+        <p class="portrait-caption">Learning. Creating. Improving.</p>
+      </div>
+    </section>
+
+    <section id="about" class="container section"
+             aria-labelledby="about-title">
+      <p class="eyebrow">A LITTLE ABOUT ME</p>
+      <h2 id="about-title">About me</h2>
+
+      <p>
+        I'm Clark Jake Pana, a student from North Eastern Mindanao State University (NEMSU)
+        with an interest in web development and programming.
+        I enjoy solving problems, learning new skills,
+        and turning ideas into working projects.
+      </p>
+
+      <p>
+        My goal is to build useful applications while improving
+        my skills in design, coding, and accessibility.
+      </p>
+    </section>
+
+    <section id="skills" class="container section"
+             aria-labelledby="skills-title">
+      <p class="eyebrow">WHAT I'M LEARNING</p>
+      <h2 id="skills-title">My skills</h2>
+
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+        <li>C</li>
+        <li>PHP</li>
+        <li>MySQL</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="container section"
+             aria-labelledby="projects-title">
+      <p class="eyebrow">LEARNING THROUGH PRACTICE</p>
+      <h2 id="projects-title">My projects</h2>
+
+      <div class="project-grid">
+        <article class="card">
+          <p class="project-type">PYTHON · FLASK · LEAFLET</p>
+          <h3>Route Optimization System</h3>
+
+          <p>
+            A delivery route project exploring Held–Karp,
+            Dijkstra's, and Greedy algorithms.
+          </p>
+
+          <details>
+            <summary>Route project details</summary>
+            <p>
+              This project focuses on rider accounts,
+              delivery location markers, and efficient
+              route planning.
+            </p>
+          </details>
+        </article>
+
+        <article class="card">
+          <p class="project-type">PHP · MYSQL · JAVASCRIPT</p>
+          <h3>Intramurals Registration</h3>
+
+          <p>
+            A student registration project for solo,
+            pair, and team events.
+          </p>
+
+          <details>
+            <summary>Registration project details</summary>
+            <p>
+              This project explores event capacity,
+              participant records, student accounts,
+              and schedule conflict checks.
+            </p>
+          </details>
+        </article>
+
+        <article class="card">
+          <p class="project-type">HTML · CSS · JAVASCRIPT</p>
+          <h3>Personal Portfolio</h3>
+
+          <p>
+            A responsive website presenting my background,
+            skills, and academic projects.
+          </p>
+
+          <details>
+            <summary>Portfolio project details</summary>
+            <p>
+              This portfolio includes keyboard navigation,
+              visible focus indicators, descriptive headings,
+              and light and dark themes.
+            </p>
+          </details>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="container section"
+             aria-labelledby="contact-title">
+      <div class="contact-box">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 id="contact-title">Contact me</h2>
+
+        <p>
+          Have a question about my projects?
+          I'd be happy to hear from you.
+        </p>
+
+        
+        <a class="button" href="mailto:clarkjakepana@gmail.com">
+          Email me
+        </a>
+
+        <p class="email-text">clarkjakepana@gmail.com</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="container">
+    <p>© <span id="year">2026</span> Clark Jake Pana</p>
+    <a href="#top">Back to top</a>
+  </footer>
+</body>
+</html>
